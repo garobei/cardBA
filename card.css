@@ -24,8 +24,8 @@
 
 
 .image img { 
-  width: 426px; /*wieso hier nicht geklappt?*/
-margin: 2px auto;
+  width: 424px; 
+  height: auto;
 border-radius: 10px;
-position: relative;
+margin:3px;
 }
