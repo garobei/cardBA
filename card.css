@@ -1,10 +1,3 @@
-/* 
- * Everything in here can be changed, 
- * except the format of the card! 
- * 
- * Card-Format: 910px * 590px
- */
-
 .card {
   /* mimicks a quartet card game card size */
   width: 430px;
@@ -13,19 +6,25 @@
   /* centering it */
   margin: 10px auto;
 
-  /* background-color just here to make the card visible, can be changed */
+  /* background-color  */
   background-color: #e6c11f;
 
-  /* makes the appearance look more like a card, up to you to change */
+  /* round corners */
   border-radius: 10px;
 
 
 }
-
 
 .image img { 
   width: 424px; 
   height: auto;
 border-radius: 10px;
 margin:3px;
+}
+
+.descriptionbox {
+width: 430px;
+height: 100px;
+margin-top: -20px;
+ background-color:aqua;
 }
